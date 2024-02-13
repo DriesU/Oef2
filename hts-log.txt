@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 13 Feb 2024 14:27:07 at http://www.hoeve-oswald.be/nl +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.hoeve-oswald.be/nl -O1 "C:\My Web Sites\HO" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:27:08	Warning: 	Note: due to https://www.hoeve-oswald.be remote robots.txt rules, links beginning with these path will be forbidden: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/ (see in the options to disable this)
+14:27:36	Error: 	"Not Found" (404) at link https://www.hoeve-oswald.be/nl/sites/all/themes/anchor/img/team1.jpg (from https://www.hoeve-oswald.be/sites/default/files/css/css_mkSoyijoT-KdszRWExQI9X7CqmX8_Fujw5s7pzuNciA.css)
+14:27:36	Error: 	"Not Found" (404) at link https://www.hoeve-oswald.be/nl/sites/all/themes/anchor/img/team3.jpg (from https://www.hoeve-oswald.be/sites/default/files/css/css_mkSoyijoT-KdszRWExQI9X7CqmX8_Fujw5s7pzuNciA.css)
+14:27:36	Error: 	"Not Found" (404) at link https://www.hoeve-oswald.be/nl/sites/all/themes/anchor/img/team4.jpg (from https://www.hoeve-oswald.be/sites/default/files/css/css_mkSoyijoT-KdszRWExQI9X7CqmX8_Fujw5s7pzuNciA.css)
+14:27:36	Error: 	"Not Found" (404) at link https://www.hoeve-oswald.be/nl/sites/all/themes/anchor/img/team2.jpg (from https://www.hoeve-oswald.be/sites/default/files/css/css_mkSoyijoT-KdszRWExQI9X7CqmX8_Fujw5s7pzuNciA.css)
+14:27:36	Error: 	"Not Found" (404) at link https://www.hoeve-oswald.be/nl/sites/all/themes/anchor/img/pricing.jpg (from https://www.hoeve-oswald.be/sites/default/files/css/css_mkSoyijoT-KdszRWExQI9X7CqmX8_Fujw5s7pzuNciA.css)
+14:27:37	Error: 	"Not Found" (404) at link https://www.hoeve-oswald.be/nl/www.fysiodynamics.be (from https://www.hoeve-oswald.be/nl/diensten)
+
+HTTrack Website Copier/3.49-2 mirror complete in 33 seconds : 128 links scanned, 121 files written (8111416 bytes overall) [7388513 bytes received at 223894 bytes/sec], 1046688 bytes transferred using HTTP compression in 34 files, ratio 24%, 35.5 requests per connection
+(6 errors, 1 warnings, 0 messages)
