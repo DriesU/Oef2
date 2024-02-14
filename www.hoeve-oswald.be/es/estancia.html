@@ -152,31 +152,23 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"es\/","setHasJsCoo
           <div class="region region-main-navigation">
     <div id="block-lang-dropdown-language-content" class="block block-lang-dropdown">
 
-    
-  <div class="content">
-    <form class="lang_dropdown_form language_content" id="lang_dropdown_form_language_content" action="https://www.hoeve-oswald.be/es/estancia" method="post" accept-charset="UTF-8"><div><div class="form-item form-type-select form-item-lang-dropdown-select">
- <select class="lang-dropdown-select-element form-select" id="lang-dropdown-select-language_content" style="width:50px" name="lang_dropdown_select"><option value="nl">NL</option><option value="en">EN</option><option value="fr">FR</option><option value="es" selected="selected">ES</option></select>
-</div>
-<input type="hidden" name="nl" value="/nl/verblijf" />
-<input type="hidden" name="en" value="/en/accommodation" />
-<input type="hidden" name="fr" value="/fr/s%C3%A9jour" />
-<input type="hidden" name="es" value="/es/estancia" />
-<noscript><div>
-<input type="submit" id="edit-submit" name="op" value="Ir" class="form-submit" />
-</div></noscript><input type="hidden" name="form_build_id" value="form-UzjIea134yIL4pg-l7aDlb5I_ZgAUyrpq732amKTis8" />
-<input type="hidden" name="form_id" value="lang_dropdown_form" />
-</div></form>  </div>
-</div>
 <div id="block-menu-block-1" class="block block-menu-block">
 
     
   <div class="content">
     <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
-  <ul class="menu"><li class="first leaf active-trail active menu-mlid-1604"><a href="estancia.html" class="active-trail active">Estancia</a></li>
+  <ul class="menu"><li class="first leaf menu-mlid-1604"><a href="estancia.html">Estancia</a></li>
 <li class="leaf menu-mlid-1620"><a href="actividades.html">Actividades</a></li>
-<li class="leaf menu-mlid-1613"><a href="servicios.html">Servicios</a></li>
+<li class="leaf active-trail active menu-mlid-1613"><a href="servicios.html" class="active-trail active">Servicios</a></li>
 <li class="leaf menu-mlid-1628"><a href="reserva.html">Reserva</a></li>
 <li class="last leaf menu-mlid-1660"><a href="contact.html">Contact</a></li>
+<li class="langleaf">
+  <select id="language-switcher-dropdown" class="language-switcher">
+    <option value="../nl/verblijf.html">NL</option>
+    <option value="../en/accommodation.html" >EN</option>
+    <option value="../fr/séjour.html">FR</option>
+    <option value="./estancia.html" selected="selected">ES</option>
+  </select></li>
 </ul></div>
   </div>
 </div>
@@ -184,6 +176,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"es\/","setHasJsCoo
       </div>
       </div>
 </nav>
+<script type="text/javascript" src="../sites/default/files/js/language-switcher.js"></script>
 
 <div id="header-bg" class="blue largetoppadding">
   <div class="wrapper clearfix">

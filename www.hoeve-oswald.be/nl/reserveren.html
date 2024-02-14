@@ -155,20 +155,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"nl\/","setHasJsCoo
     <div id="block-lang-dropdown-language-content" class="block block-lang-dropdown">
 
     
-  <div class="content">
-    <form class="lang_dropdown_form language_content" id="lang_dropdown_form_language_content" action="https://www.hoeve-oswald.be/nl/reserveren" method="post" accept-charset="UTF-8"><div><div class="form-item form-type-select form-item-lang-dropdown-select">
- <select class="lang-dropdown-select-element form-select" id="lang-dropdown-select-language_content" style="width:50px" name="lang_dropdown_select"><option value="nl" selected="selected">NL</option><option value="en">EN</option><option value="fr">FR</option><option value="es">ES</option></select>
-</div>
-<input type="hidden" name="nl" value="/nl/reserveren" />
-<input type="hidden" name="en" value="/en/reservation" />
-<input type="hidden" name="fr" value="/fr/r%C3%A9servation" />
-<input type="hidden" name="es" value="/es/reserva" />
-<noscript><div>
-<input type="submit" id="edit-submit" name="op" value="Gaan" class="form-submit" />
-</div></noscript><input type="hidden" name="form_build_id" value="form-XmEjRq3hlytdBwqjaNcEJWHaNLlCGzLnfyl27pFrJws" />
-<input type="hidden" name="form_id" value="lang_dropdown_form" />
-</div></form>  </div>
-</div>
+
 <div id="block-menu-block-1" class="block block-menu-block">
 
     
@@ -179,6 +166,13 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"nl\/","setHasJsCoo
 <li class="leaf menu-mlid-922"><a href="diensten.html">Diensten</a></li>
 <li class="leaf active-trail active menu-mlid-1625"><a href="reserveren.html" class="active-trail active">Reserveren</a></li>
 <li class="last leaf menu-mlid-1657"><a href="contact.html">Contact</a></li>
+<li class="langleaf">
+  <select id="language-switcher-dropdown" class="language-switcher">
+    <option value="./reserveren.html" selected="selected">NL</option>
+    <option value="../en/reservation.html" >EN</option>
+    <option value="../fr/réservation.html">FR</option>
+    <option value="../es/reserva.html">ES</option>
+  </select></li>
 </ul></div>
   </div>
 </div>
@@ -900,6 +894,8 @@ Tel <a href="tel:+32473896370">+32 (0)473 89 63 70</a></p>
 <ul class="menu normal">
   <li class="btt"><a href="#"><i class="icon-double-angle-up"></i></a></li>
 </ul>          <script type="text/javascript" src="../sites/default/files/js/js__oLvKY2ezPkaoDDfghGVOQdHk5kdeJzAnEzRQAJNLwc.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/language-switcher.js"></script>
+
         </body>
         
 <!-- Mirrored from www.hoeve-oswald.be/nl/reserveren by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Feb 2024 14:46:30 GMT -->
